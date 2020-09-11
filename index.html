@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="sortcut icon" href="/assets/images-removebg-preview.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cut</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Crop.css">
+</head>
+<body>
+
+    <header>
+        <image src="/assets/images-removebg-preview.png" id="logo"></image>
+        <h1>Online Cut</h1>
+        <p>Cut for your image online</p>
+    </header>
+
+    <main>
+        <button id="select-image">
+            <input type="file" id="photo-file">
+            Upload Image
+        </button>
+        <image id="photo-preview" draggable="false"/>
+
+        <button id="crop-image"> Cut Image </button>
+
+        <a href="pages/tks.html">
+        <button id="download">Export Image</button>
+        </a>
+
+        <div id="selection-tool"></div>
+    </main>
+
+    <footer></footer>
+    
+    <script src="/js/scripts.js" type="module"></script>
+</body>
+</html>

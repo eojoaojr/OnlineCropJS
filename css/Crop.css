@@ -1,0 +1,56 @@
+/* Image Crop */
+
+#photo-file{
+    display: none;
+}
+#photo-preview{
+    margin: .8rem 0;
+}
+#selection-tool{
+    position: fixed;
+    display: none;
+    border: 2px dashed var(--green);
+    top:0;
+    left:0;
+    width:200px;
+    height: 200px;
+    color: gray;
+}
+#crop-image{
+    display: none;
+    border-width: 2.5px;
+    background-color: transparent;
+    color:white;
+    border-color: #4169e1;
+}
+#download{
+    display: none;
+    background-color: transparent ;
+    color:white;
+    border-width: 2px;
+    border-color: #4169e1;
+    margin-top: 10px;;
+}
+
+#logo{
+    width:90px;
+    height: 90px;
+}
+#select-image{
+    background-color: transparent ;
+    color:white;
+    border-width: 2px;
+    border-color: #4169e1;
+}
+#back{
+    background-color: transparent ;
+    color:white;
+    border-width: 2px;
+    border-color: #4169e1;
+}
+#tkss{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    align-self: center;
+}
